@@ -27,7 +27,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Objects;
 
 public class TimeOrderedWindowStoreBuilder<K, V> extends AbstractStoreBuilder<K, V, WindowStore<K, V>> {
-    private final Logger log = LoggerFactory.getLogger(WindowStoreBuilder.class);
+    private final Logger log = LoggerFactory.getLogger(TimeOrderedWindowStoreBuilder.class);
 
     private final WindowBytesStoreSupplier storeSupplier;
 
